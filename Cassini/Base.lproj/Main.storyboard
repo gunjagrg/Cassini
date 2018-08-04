@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14306.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fQq-yR-Nu5">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14278.2"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Image View Controller-->
+        <scene sceneID="UPn-tJ-YBe">
+            <objects>
+                <viewController id="fQq-yR-Nu5" customClass="ImageViewController" customModule="Cassini" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UcQ-6G-WhY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Txk-ST-4Fi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="812" translatesAutoresizingMaskIntoConstraints="NO" id="cPa-s7-cNM">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="cPa-s7-cNM" secondAttribute="bottom" id="2Qf-Rn-jn8"/>
+                                    <constraint firstItem="cPa-s7-cNM" firstAttribute="top" secondItem="Txk-ST-4Fi" secondAttribute="top" id="A0A-JF-hJl"/>
+                                    <constraint firstItem="cPa-s7-cNM" firstAttribute="leading" secondItem="Txk-ST-4Fi" secondAttribute="leading" id="Qe0-bZ-SGe"/>
+                                    <constraint firstItem="cPa-s7-cNM" firstAttribute="trailing" secondItem="Txk-ST-4Fi" secondAttribute="trailing" id="Sna-7s-zFo"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Txk-ST-4Fi" firstAttribute="leading" secondItem="UcQ-6G-WhY" secondAttribute="leading" id="1BC-HL-atG"/>
+                            <constraint firstAttribute="bottom" secondItem="Txk-ST-4Fi" secondAttribute="bottom" id="4jI-nl-eKg"/>
+                            <constraint firstItem="Txk-ST-4Fi" firstAttribute="top" secondItem="UcQ-6G-WhY" secondAttribute="top" id="QTL-OX-yuS"/>
+                            <constraint firstItem="Txk-ST-4Fi" firstAttribute="trailing" secondItem="UcQ-6G-WhY" secondAttribute="trailing" id="tuR-cs-jsY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1ql-Q6-73J"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="cPa-s7-cNM" id="xnj-ch-hF1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eqN-3E-smW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="-7.389162561576355"/>
+        </scene>
+    </scenes>
+</document>
