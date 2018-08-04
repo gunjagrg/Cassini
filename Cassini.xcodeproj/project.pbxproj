@@ -14,7 +14,7 @@
 		183357A4211567000048C4A8 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183357A3211567000048C4A8 /* ImageViewController.swift */; };
 		183357A62115675A0048C4A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183357A52115675A0048C4A8 /* Default-568h@2x.png */; };
 		18351BED211576DC00538643 /* DemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18351BEC211576DC00538643 /* DemoURLs.swift */; };
-		18351BEF211577AB00538643 /* stanford oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18351BEE211577AB00538643 /* stanford oval.jpg */; };
+		18351BEF211577AB00538643 /* oval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18351BEE211577AB00538643 /* oval.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		183357A3211567000048C4A8 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		183357A52115675A0048C4A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		18351BEC211576DC00538643 /* DemoURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoURLs.swift; path = "../../../CS193P-Fall-2017-DEMO-master/Cassini L9/Cassini/DemoURLs.swift"; sourceTree = "<group>"; };
-		18351BEE211577AB00538643 /* stanford oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stanford oval.jpg"; sourceTree = "<group>"; };
+		18351BEE211577AB00538643 /* oval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oval.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				18351BEC211576DC00538643 /* DemoURLs.swift */,
 				18335794211566410048C4A8 /* Main.storyboard */,
 				1833579C211566430048C4A8 /* Info.plist */,
-				18351BEE211577AB00538643 /* stanford oval.jpg */,
+				18351BEE211577AB00538643 /* oval.jpg */,
 				183357A22115666F0048C4A8 /* Supporting Files */,
 				183357A52115675A0048C4A8 /* Default-568h@2x.png */,
 			);
@@ -141,7 +141,7 @@
 			files = (
 				1833579B211566430048C4A8 /* LaunchScreen.storyboard in Resources */,
 				183357A62115675A0048C4A8 /* Default-568h@2x.png in Resources */,
-				18351BEF211577AB00538643 /* stanford oval.jpg in Resources */,
+				18351BEF211577AB00538643 /* oval.jpg in Resources */,
 				18335798211566430048C4A8 /* Assets.xcassets in Resources */,
 				18335796211566410048C4A8 /* Main.storyboard in Resources */,
 			);
